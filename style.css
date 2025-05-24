@@ -1,3 +1,20 @@
-body {
-    background-color: crimson;
+p {
+    background-color: rgb(175, 52, 49);
+}
+
+#test {
+    background-color: #2431c2;
+}
+
+.text {
+    background-color: olivedrab;
+    font-size: 34px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: 100;
+    width: 50%;
+    height: 200px;
+    border-color: deeppink;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
 }
