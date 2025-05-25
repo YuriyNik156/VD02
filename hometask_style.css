@@ -24,3 +24,10 @@ img {
     bottom: 45%;
     border-radius: 20px;
 }
+
+.card-container {
+    display: flex;
+    justify-content: center; /* или space-between / space-around */
+    flex-wrap: wrap;         /* чтобы переносились на следующую строку при нехватке места */
+    gap: 20px;               /* расстояние между карточками */
+}
