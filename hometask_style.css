@@ -27,9 +27,9 @@ img {
 
 .card-container {
     display: flex;
-    justify-content: center; /* или space-between / space-around */
-    flex-wrap: wrap;         /* чтобы переносились на следующую строку при нехватке места */
-    gap: 20px;               /* расстояние между карточками */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .main-title {
@@ -39,3 +39,4 @@ img {
     margin-bottom: 40px;
     font-family: Arial, sans-serif;
 }
+
