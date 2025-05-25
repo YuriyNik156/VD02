@@ -1,5 +1,5 @@
 .card {
-    width: 400px;
+    width: 350px;
     height: 650px;
     background-color: lightgreen;
     border-radius: 60px;
@@ -20,7 +20,7 @@
 img {
     height: 200px;
     position: relative;
-    left: 12%;
+    left: 5%;
     bottom: 45%;
     border-radius: 20px;
 }
@@ -30,4 +30,12 @@ img {
     justify-content: center; /* или space-between / space-around */
     flex-wrap: wrap;         /* чтобы переносились на следующую строку при нехватке места */
     gap: 20px;               /* расстояние между карточками */
+}
+
+.main-title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Arial, sans-serif;
 }
